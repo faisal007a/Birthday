@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="cake">
+      <div class="candle">
+        <div class="flame"></div>
+      </div>
+    </div>
+    <h1>Happy Birthday, <span id="nameOutput">Friend</span>! 🎉</h1>
+    <p id="messageOutput">Wishing you lots of happiness and cake!</p>
+  </div>
+
+  <div class="input-box">
+    <input type="text" id="nameInput" placeholder="Enter Name">
+    <input type="text" id="msgInput" placeholder="Enter Message">
+    <button onclick="updateCard()">Generate Card</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
